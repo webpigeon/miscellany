@@ -1,0 +1,28 @@
+# WebPigeon's Script Collection
+A collection of scripts written or contributed to by me for the purposes
+of making life intresting or for fun.
+
+## Music Utils (music-utils)
+I am very perticular about my music folder. I like it to be neatly organised
+and filled with creative commons licneced music. These scripts exist to help
+me do that.
+
+## Stastical Processing (stats)
+These scripts count or collate data. Some were created for fun, others as part
+of things I was working on and then abadoned because I found a better way of
+doing it.
+
+## Data files (data)
+If you see this directory something went wrong. It's used for storing the data
+these scripts use. It should be on the gitignore for this repo.
+
+## Random Stuff (random)
+One off stuff. Generally created for comic or miscellaneous reasons.
+
+## Reference (ref)
+Stuff not created by me but non-the-less useful to have to hand. Stuff in this
+directory will be under some form on CC licence and probably shouldn't be on
+github but it might be useful to others as well.
+
+## Configuration files (config)
+Configuration files for programs on the system.

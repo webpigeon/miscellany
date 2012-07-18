@@ -1,0 +1,15 @@
+#! /usr/bin/env bash
+JAM_DIR="/home/webpigeon/Music/Jamendo/*"
+DEST_DIR=`pwd`"/music/"
+
+shopt -s nullglob
+for f in $JAM_DIR
+do
+    #cp "$f" $DEST_DIR
+    FOLDER=`echo $f | nawk -F' [-]+ ' '{print $1 "/" $2}'`
+    FOLDER=${FOLDER:${#JAM_DIR}-1}
+    echo $FOLDER
+    FULL_PATH=$DEST_DIR$FOLDER
+    mkdir -p "$FULL_PATH"
+    cp -r "$f/"* "$FULL_PATH"
+done

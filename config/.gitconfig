@@ -1,0 +1,9 @@
+[user]
+	name = Joseph Walton-Rivers
+	email = webpigeon@unitycoders.co.uk
+[color]
+	ui = true
+[format]
+	pretty = oneline
+[push]
+	default = upstream
